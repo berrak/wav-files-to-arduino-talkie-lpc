@@ -2,20 +2,20 @@
 
 ### Table of contents
 
-    - [ About the Arduino library Talkie ]
-    - [ Hardware ]
-    - [ Tools required for converting wav-files to LPC data ]
-    - [ Audacity installation ]
-    - [ Python language installation ]
-    - [ python_wizzard installation ]
-    - [ Git clone code repository ]
-    - [ Voice recording with Audacity ]
-    - [ Export the recording as a wav-file ]
-    - [ Analyze your recording ]
-    - [ Convert Wav file to LPC hex data ]
-    - [ Install Arduino library Talkie ]
-    - [ FAQ ]
-    - [ References ]
+- [About the Arduino library Talkie](https://github.com/berrak/wav-files-to-arduino-talkie-lpc#about-the-arduino-library-talkie)
+- [Hardware](https://github.com/berrak/wav-files-to-arduino-talkie-lpc#hardware)
+- [Tools required for converting wav-files to LPC data](https://github.com/berrak/wav-files-to-arduino-talkie-lpc#tools-required-for-converting-wav-files-to-lpc-data)
+- [Audacity installation](https://github.com/berrak/wav-files-to-arduino-talkie-lpc#audacity-installation)
+- [Python language installation](https://github.com/berrak/wav-files-to-arduino-talkie-lpc#python-language-installation)
+- [python_wizzard installation](https://github.com/berrak/wav-files-to-arduino-talkie-lpc#python_wizzard-installation)
+- [Git clone code repository](https://github.com/berrak/wav-files-to-arduino-talkie-lpc#git-clone-code-repository)
+- [Voice recording with Audacity](https://github.com/berrak/wav-files-to-arduino-talkie-lpc#voice-recording-with-audacity)
+- [Export the recording as a wav-file](https://github.com/berrak/wav-files-to-arduino-talkie-lpc#export-the-recording-as-a-wav-file)
+- [Analyze your recording](https://github.com/berrak/wav-files-to-arduino-talkie-lpc#analyze-your-recording)
+- [Convert Wav file to LPC hex data](https://github.com/berrak/wav-files-to-arduino-talkie-lpc#convert-wav-file-to-lpc-hex-data)
+- [Install Arduino library Talkie](https://github.com/berrak/wav-files-to-arduino-talkie-lpc#install-arduino-library-talkie)
+- [FAQ](https://github.com/berrak/wav-files-to-arduino-talkie-lpc#faq)
+- [References](https://github.com/berrak/wav-files-to-arduino-talkie-lpc#references)
   
 ### About the Arduino library Talkie
 
