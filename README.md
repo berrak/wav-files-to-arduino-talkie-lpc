@@ -133,13 +133,16 @@ We will later verify all critical `wav-file` characteristics with `MediaInfo`.
 #### Start Audacity
 
 ![projectrate](./images/project-rate.png)
+
 *In the left lower corner at Project Rate (Hz), set it to 8000*
   
 ![c922-microphone](./images/microphone-c922.png)
+
 *Select the attached microphone in the drop-down list*
 
 
 ![c922-microphone](./images/mono-channel.png)
+
 *Select `Mono` in the drop-down menu for the recording*
 
 #### Set the preferences
@@ -147,9 +150,11 @@ We will later verify all critical `wav-file` characteristics with `MediaInfo`.
 Use menu `Edit -> Preferences ...`
 
 ![mixoption](./images/advance-mix-options.png)
+
 *In Preferences:Export/Import, select Use Advance Mixing Options*
 
 ![quality](./images/quality-16bit.png)
+
 *In Preferences:Quality, select Default Sample Format 16-bit 
 and check that Default Sample Rate is 8000 Hz*
 
@@ -157,13 +162,16 @@ and check that Default Sample Rate is 8000 Hz*
 #### Record your phrase or word
 
 ![small-sound](./images/low-sound.png)
+
 *A single soundtrack is displayed*
 
 ![gain](./images/amplify.png)
+
 *Select the soundtrack with `Ctrl-A` and menu `Effect -> Amplify `...`, accept the proposed gain-value, and press OK*
 
 
 ![high-sound](./images/amplified-default.png)
+
 *Adjusted sound level by accepting default gain*
 
 ### Export the recording as a wav-file
@@ -281,6 +289,7 @@ Please, see the [Arduino library installation documentation](https://docs.arduin
 **A**: Analyze the recording already in `Audacity`, and decide if to use a `synonymous word` which may result in less noisy spikes. In articulatory phonetics, a `consonant` is a speech sound articulated with a complete or partial closure of the vocal tract. These are harder to LPC encode satisfactorily. Many tools are available in `Audacity` to mitigate the negative effect on sound quality.
 
 ![spikey-sound](./images/spikes.png)
+
 *An example of a recorded voice sample with click/pop `noise` at the end.*
 
 
