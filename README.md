@@ -29,7 +29,7 @@
 
 In the beginning, it was [Talkie](https://github.com/going-digital/Talkie/) by `Peter Knight`, a software implementation of the Texas Instruments speech synthesis architecture (Linear Predictive Coding) from the late 1970s to early 1980s. This library was later refined and improved over the years, and the refurbished [Talkie](https://github.com/ArminJo/Talkie/) is now maintained by `Armin Joachimsmeyer`.
 
-Microcontrollers generally lack storage space for vast amounts of voice data. [LPC](https://en.wikipedia.org/wiki/Linear_predictive_coding) is a widely used method in speech coding and speech synthesis. It is a powerful speech analysis technique and a valuable way for encoding good-quality speech at a low bit rate resulting in a small size. 
+Microcontrollers generally lack storage space for vast amounts of voice data. [LPC](https://en.wikipedia.org/wiki/Linear_predictive_coding) is a widely used method in speech coding and speech synthesis. It is a powerful speech analysis technique and a valuable way for encoding (*good-quality speech!*) at a low bit rate resulting in a small size. 
 
 YT `Gadget Reboot` and his episode [Arduino Speech Synthesizer: Talkie Library LPC Speech Generator](https://www.youtube.com/watch?v=O_yl5kcRO5w) is an excellent introduction to the speech subject. Add speech to the robotic device or other voice applications where slightly weird mechanical speech is wanted.
 
@@ -77,7 +77,8 @@ sudo apt install audacity
 **Windows 10+**
 
 `python_wizzard` is a CLI application that runs under Windows Linux Subsystem (WSL2).
-Follow Microsoft's procedure to set up [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install/).
+
+- Follow Microsoft's procedure to set up [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install/).
 
 Once `WSL2` is up and running, install `Python v3`, assuming the Linux distro is `Debian` or `Ubuntu`. The latter is MS default.
 ```
@@ -233,7 +234,7 @@ There is no idea to continue until your `wav-file` has this correct.
 ### Convert Wav file to LPC hex data
 
 Note: On *Windows 10+*, a practical challenge is to move the `wav-file` into the `WSL2 environment`. 
-I'm not a regular `WSL2` user; thus, I rely on someone with experience who can suggest a solution (PR) to this issue.
+I'm not a frequent `Windows 10` user; thus, I rely on someone with experience who can suggest a solution (PR) to this issue.
 
 
 Change to the downloaded `python_wizard` directory.
