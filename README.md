@@ -1,3 +1,11 @@
+![intro-speech](./images/heading-pic.png)
+
+[![GitHub version](https://img.shields.io/github/release/berrak/wav-files-to-arduino-talkie-lpc.svg?logo=github&logoColor=ffffff)](https://github.com/berrak/wav-files-to-arduino-talkie-lpc/releases/latest)
+[![GitHub Release Date](https://img.shields.io/github/release-date/berrak/wav-files-to-arduino-talkie-lpc.svg?logo=github&logoColor=ffffff)](https://github.com/berrak/wav-files-to-arduino-talkie-lpc/releases/latest)
+[![GitHub stars](https://img.shields.io/github/stars/berrak/wav-files-to-arduino-talkie-lpc.svg?logo=github&logoColor=ffffff)](https://github.com/berrak/wav-files-to-arduino-talkie-lpc/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/berrak/wav-files-to-arduino-talkie-lpc.svg?logo=github&logoColor=ffffff)](https://github.com/berrak/wav-files-to-arduino-talkie-lpc/issues)
+![Badge Hit Counter](https://visitor-badge.laobi.icu/badge?page_id=berrak_wav-files-to-arduino-talkie-lpc)
+
 ## How to make ESP32 talk with recorded voice (wav) files
 
 ### Table of contents
