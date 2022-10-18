@@ -6,7 +6,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/berrak/wav-files-to-arduino-talkie-lpc.svg?logo=github&logoColor=ffffff)](https://github.com/berrak/wav-files-to-arduino-talkie-lpc/issues)
 ![Badge Hit Counter](https://visitor-badge.laobi.icu/badge?page_id=berrak_wav-files-to-arduino-talkie-lpc)
 
-# How to make ESP32 talk with recorded voice (wav) files
+## How to make ESP32 talk with recorded voice (wav) files
 
 ### Table of contents
 
