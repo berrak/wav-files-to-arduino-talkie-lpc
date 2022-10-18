@@ -6,7 +6,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/berrak/wav-files-to-arduino-talkie-lpc.svg?logo=github&logoColor=ffffff)](https://github.com/berrak/wav-files-to-arduino-talkie-lpc/issues)
 ![Badge Hit Counter](https://visitor-badge.laobi.icu/badge?page_id=berrak_wav-files-to-arduino-talkie-lpc)
 
-## How to make ESP32 talk with recorded voice (wav) files
+# How to make ESP32 talk with recorded voice (wav) files
 
 ### Table of contents
 
@@ -58,7 +58,7 @@ An alternative to `python_wizzard` is [BlueWizzard](https://github.com/patrick99
 - Sample wav file 128kbs (8KHz, 16bit) - hello.waw
 - Resulting LCS data                   - hellolpc.h
 
-### Audacity installation
+## Audacity installation
 
 **Windows 10+ and macOS**
 
@@ -72,7 +72,7 @@ Install via the package manager
 sudo apt install audacity
 ```
 
-### Python language installation
+## Python language installation
 
 **Windows 10+**
 
@@ -100,7 +100,7 @@ I have no access to macOS. Thus, it's left TBD until someone is kind and makes a
 Python v3 is likely already installed.
 
 
-### python_wizzard installation
+## python_wizzard installation
 
 **Windows 10+**
 
@@ -128,7 +128,7 @@ Use `git` to clone a copy of the repository to a local directory.
 git clone https://github.com/ptwz/python_wizard.git
 ``` 
 
-### Voice recording with Audacity
+## Voice recording with Audacity
 
 Important to note that the resulting `wav-file` must be:
 
@@ -139,7 +139,7 @@ Important to note that the resulting `wav-file` must be:
 
 We will later verify all critical `wav-file` characteristics with `MediaInfo`. 
 
-#### Start Audacity
+### Start Audacity
 
 ![projectrate](./images/project-rate.png)
 
@@ -154,7 +154,7 @@ We will later verify all critical `wav-file` characteristics with `MediaInfo`.
 
 *Select `Mono` in the drop-down menu for the recording*
 
-#### Set the preferences
+### Set the preferences
 
 Use menu `Edit -> Preferences ...`
 
@@ -168,7 +168,7 @@ Use menu `Edit -> Preferences ...`
 and check that Default Sample Rate is 8000 Hz*
 
 
-#### Record your phrase or word
+### Record your phrase or word
 
 ![small-sound](./images/low-sound.png)
 
@@ -191,7 +191,7 @@ One or two more dialogs may appear after this but continue with OK.
 Save your named file; here, we use `test.wav` as an example.
 
 
-### Analyze your recording
+## Analyze your recording
 
 Verify that the audio `wav-file` meets the requirements by uploading it to [MediaInfo](https://mediaarea.net/MediaInfoOnline).
 
@@ -231,7 +231,7 @@ Check that your file has the following characteristics.
 There is no idea to continue until your `wav-file` has this correct.
 
 
-### Convert Wav file to LPC hex data
+## Convert Wav file to LPC hex data
 
 Note: On *Windows 10+*, a practical challenge is to move the `wav-file` into the `WSL2 environment`. 
 I'm not a frequent `Windows 10` user; thus, I rely on someone with experience who can suggest a solution (PR) to this issue.
@@ -250,7 +250,7 @@ python3 python_wizard -S -T tms5220 -f arduino test.wav > testlpc.h
 ```
 Then include the header file `testlpc.h` in the Arduino main sketch. See the directory `arduino/hello` directory for an example.
 
-#### GUI python_wizzard_gui (do not use)
+### GUI python_wizzard_gui (do not use)
 
 Start the application by typing at the terminal:
 
@@ -265,13 +265,13 @@ The terminal shows `NameError: name 'CodingTable' is not defined` or some other 
 I can **not** recommend its usage, but it is included here for completeness.
 
 
-### Install Arduino library Talkie
+## Install Arduino library Talkie
 
 Browse to [Arduino IDE download page](https://www.arduino.cc/en/software) to install `Arduino IDE`.
 
 Please, see the [Arduino library installation documentation](https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries) and how to install the Arduino library [Talkie](https://github.com/ArminJo/Talkie/).
 
-### FAQ
+## FAQ
 
 **Q**: My overall bit rate is 256 kB/s. What should I do?
 
