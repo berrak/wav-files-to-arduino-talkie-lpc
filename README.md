@@ -257,7 +257,9 @@ Start the application by typing at the terminal:
 ```
 python3 python_wizzard_gui
 ```
-![python_wizzard](./images/wizzard.png)
+![python_wizzard](./images/wizzard-hints.png)
+
+*Ensure that `includeExplicitStopFrame` is marked, `outputFormat` is `arduino`, and `tableVariant` is `tms5220`.*
 
 However, it *may* work, or the **application may fail** with no code showing up in the output windows to the right.
 The terminal shows `NameError: name 'CodingTable' is not defined` or some other error messages from an unresolved bug in the GUI application.
